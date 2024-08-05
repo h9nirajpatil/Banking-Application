@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import type { Metadata } from "next";
 import { Inter, IBM_Plex_Serif } from "next/font/google";
 import "./globals.css";
@@ -10,10 +12,10 @@ const ibmPlexSerif = IBM_Plex_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Hola9 Banking",
-  description: "Hola9 is a modern banking platform for everyone",
+  title: "HOLA9 BANKING",
+  description: "Horizon is a modern banking platform for everyone.",
   icons: {
-    icon: "/icons/logo/svg",
+    icon: "/icons/logo1.jpg",
   },
 };
 
