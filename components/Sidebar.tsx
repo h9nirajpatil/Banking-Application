@@ -17,12 +17,12 @@ const Sidebar = ({ user }: SiderbarProps) => {
         <Link href="/" className="mb-12 cursor-pointer flex items-center gap-2">
           <Image
             src="/icons/logo1.jpg"
-            width={34}
-            height={34}
-            alt="Horizon logo"
-            className="size-[24px] max-xl:size-14"
+            width={70}
+            height={70}
+            alt="hola9 logo"
+            className="size-[70px] max-xl:size-14"
           />
-          <h1 className="sidebar-logo">Horizon</h1>
+          <h1 className="sidebar-logo">Banking</h1>
         </Link>
 
         {sidebarLinks.map((item) => {
